@@ -18,9 +18,9 @@ public class UserRepository {
     private HashMap<String, User> repository;
     public UserRepository(){
         repository = new HashMap<String, User>();
-        User firstUser = new User("roofimon", "password");
-        User secondUser = new User("boyone", "password");
-        User thirdUser = new User("jeerapun.m", "1234");
+        User firstUser = new User("ohwow", "1234");
+        User secondUser = new User("kik", "1234");
+        User thirdUser = new User("tul", "1234");
         repository.put(firstUser.getUsername(), firstUser);
         repository.put(secondUser.getUsername(), secondUser);
         repository.put(thirdUser.getUsername(), thirdUser);
